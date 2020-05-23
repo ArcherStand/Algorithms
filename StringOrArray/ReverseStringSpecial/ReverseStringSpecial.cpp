@@ -37,7 +37,7 @@ string reverseString(string str)
             --right;
         }
         // Since both reversedStr[left] and reversedStr[right] are
-        // alphanumeric we can swap them:
+        // alphabetic we can swap them:
         else
         {
             char temp = reversedStr[left];
