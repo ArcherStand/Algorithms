@@ -3,8 +3,8 @@
  *  BinarySearchTree class.
  *  A binary search tree is a collection of nodes. Each node contains a key
  *  value and pointers to two child nodes called 'left' and 'right'. The tree
- *  has no duplicate keys, and every nodes left child contains keys smaller
- *  than the node, and right child contains keys larger than the node.
+ *  has no duplicate keys, and every node's left child contains keys smaller
+ *  than the node's key, and right child contains keys larger than the node's key.
  */
 
 #ifndef BINARY_SEARCH_TREE_H
