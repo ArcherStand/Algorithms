@@ -122,6 +122,7 @@ void printPalindromePartitions(vector<list<string> > palindromePartitions)
     }
 }
 
+// Driver code showing example usage:
 int main()
 {
     string str1("a"), str2("Originally"), str3("palindromeemordnilap");
