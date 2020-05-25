@@ -1,9 +1,9 @@
 /*  PalindromePartitions.cpp
- *  This program contains and shows example usage of an algorithm which,
- *  given an input string, finds all the substrings which are palindromes,
- *  i.e. all the substrings which are the same after being reversed. E.g.,
- *  for the word 'Originally', the substring palindromes are (in order of
- *  length from smallest to largest): 
+ *  This program contains and shows example usage of a recursive algorithm
+ *  which, given an input string, finds all the substrings which are
+ *  palindromes, i.e. all the substrings which are the same after being
+ *  reversed. E.g., for the word 'Originally', the substring palindromes are
+ *  (in order of length from smallest to largest): 
  *   O r i g i n a l l y
  *   ll
  *   igi
@@ -65,6 +65,9 @@ bool isPalindrome(const string &str, int start, int end)
 //         str - the main string which contains the substrings to search
 //         start - the starting index of the substring to search
 //         end - the ending index of the substring to search
+// The method used here is a recursive algorithm where we check all substrings
+// of any length starting at index start and then call this function
+// recursively starting at index start+1. 
 void findPalindromePartitions(vector<list<string> >& palindromePartitions,
                               string str, int start, int end)
 {
