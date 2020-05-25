@@ -1,2 +1,2 @@
 # Algorithms
-Implementations of many useful algorithms and data structures
+Implementations of many useful algorithms along with supporting data structures.
