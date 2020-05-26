@@ -82,7 +82,7 @@ int mapTwoIntegersToOneInteger(int num1, int num2)
 // this algorithm is improved by storing solutions as we compute them and
 // looking for an already computed solution before we compute one.
 //
-// If multiple longest commone subsequences with the same length are found we
+// If multiple longest common subsequences with the same length are found we
 // return only the one that was found first.
 //
 // A template argument, T, is used. The requirements for a type to be used are:
